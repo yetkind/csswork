@@ -13,7 +13,7 @@ div.column {
   
 }
 .account__header__fields dl {
-  width: max-content%;
+  width: -webkit-fill-available;
   overflow: hidden;
   padding: 0.1em;
   margin: 0;
