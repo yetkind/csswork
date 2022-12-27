@@ -1,0 +1,56 @@
+div.column {
+ -webkit-box-flex:1;
+ -ms-flex-positive:1;
+ flex-grow:1;
+ width: max-content;
+ }
+
+
+/*code from promovicz start here and we edited a bit based on our needs. yetkin */
+.account__header__fields {
+  padding: 0.2em 0.3em;
+  
+  
+}
+.account__header__fields dl {
+  width: max-content%;
+  overflow: hidden;
+  padding: 0.1em;
+  margin: 0;
+  
+}
+.account__header__fields dl dt {
+  float: left;
+ /* width: max-content;*/
+  padding: 0;
+  margin: 0;
+  border-radius: 4px 0 0px 4px; /* top-left | top-right | bottom-right | bottom-left */
+  
+ 
+}
+
+.account__header__fields dl dd {
+  float: left;
+  width: max-content;
+  padding: 0;
+  margin: 0;
+  
+  
+}
+.account__header__fields .verified {
+  border-radius: 0px 4px 4px 0px; /* top-left | top-right | bottom-right | bottom-left */
+}
+/*end here*/
+
+/* Add a ":" after the header */
+.account__header__fields dl dt:after {
+    content: ":";
+    padding-right: 0.5em;
+}
+
+.user-role-1 {
+  --user-role-accent: #000000;
+  --user-role-background: #00000019;
+  --user-role-border: #00000080;
+}
+
